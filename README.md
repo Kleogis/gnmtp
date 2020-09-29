@@ -1,5 +1,5 @@
 # Generate Novel Molecules With Target Properties Using Conditional Generative Models
-Code for the paper Generate Novel Molecules With Target Properties Using Conditional Generative Models.
+Code for the paper `Generate Novel Molecules With Target Properties Using Conditional Generative Models`.
 
 Link to [Paper](https://abhinavsagar.github.io/files/gnmtp.pdf).
 
@@ -51,12 +51,12 @@ Generate molecules with desired properties (Example MW=300, LogP=4, and TPSA=100
 The following benchmarks was used to determine the performance of our network for generating
 molecules:
 
-1. Validity: It assesses whether the molecules generated are realistic or not. Examples of not valid
+1. `Validity`: It assesses whether the molecules generated are realistic or not. Examples of not valid
 molecules are one with wrong valency configuration or wrong SMILES syntax.
 
-2. Uniqueness: It assesses whether the molecules generated are different from one another or not.
+2. `Uniqueness`: It assesses whether the molecules generated are different from one another or not.
 
-3. Novelty: It assesses whether the molecules generated are different from the ones in the training
+3. `Novelty`: It assesses whether the molecules generated are different from the ones in the training
 set or not.
 
 ## Property Prediction
@@ -64,14 +64,14 @@ set or not.
 An important tool for evaluating the performance of network is done using properties distribution.
 The following three properties are used:
 
-1. Molecular weight (MW): It is the sum of atomic weights in a molecule. To figure out if the
+1. `Molecular weight (MW)`: It is the sum of atomic weights in a molecule. To figure out if the
 generated samples are biased towards lighter or heavier molecules histograms of molecular weight
 for the generated and test sets are plotted.
 
-2. LogP: It is the ratio of a chemical’s concentration in the octanol phase to its concentration in the
+2. `LogP`: It is the ratio of a chemical’s concentration in the octanol phase to its concentration in the
 aqueous phase.
 
-3. Quantitative Estimation of Drug-likeness (QED): It is a measure of how likely a molecule is a
+3. `Quantitative Estimation of Drug-likeness (QED)`: It is a measure of how likely a molecule is a
 viable candidate for a drug. It’s value lies between 0 and 1 both included.
 
 ## Results
