@@ -1,7 +1,7 @@
 # Generate Novel Molecules With Target Properties Using Conditional Generative Models
 Code for the paper `Generate Novel Molecules With Target Properties Using Conditional Generative Models`.
 
-Link to [Paper](https://abhinavsagar.github.io/files/gnmtp.pdf).
+Link to [Paper](https://arxiv.org/pdf/2009.12368).
 
 ## Abstract
 
