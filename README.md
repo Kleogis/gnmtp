@@ -111,7 +111,7 @@ BibTex:
 }
 ```
 
-APA:
+MLA:
 
 `Sagar, Abhinav. "Generate Novel Molecules With Target Properties Using Conditional Generative Models." arXiv preprint arXiv:2009.12368 (2020).`
 
